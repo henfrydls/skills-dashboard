@@ -1,0 +1,2139 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nombre": "Innovación & Diseño",
+      "abrev": "Innovación",
+      "skillCount": 6
+    },
+    {
+      "id": 2,
+      "nombre": "Desarrollo & Plataforma Técnica",
+      "abrev": "Desarrollo",
+      "skillCount": 10
+    },
+    {
+      "id": 3,
+      "nombre": "Liderazgo del Cambio",
+      "abrev": "Cambio",
+      "skillCount": 4
+    },
+    {
+      "id": 4,
+      "nombre": "Negocio & Estrategia",
+      "abrev": "Negocio",
+      "skillCount": 10
+    },
+    {
+      "id": 5,
+      "nombre": "Entrega & Portafolio",
+      "abrev": "Entrega",
+      "skillCount": 6
+    },
+    {
+      "id": 6,
+      "nombre": "Tecnologías Emergentes",
+      "abrev": "Emergentes",
+      "skillCount": 3
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "categoria": 1,
+      "nombre": "Design Thinking avanzado"
+    },
+    {
+      "id": 2,
+      "categoria": 1,
+      "nombre": "Service Design"
+    },
+    {
+      "id": 3,
+      "categoria": 1,
+      "nombre": "Lean Startup / Experimentación ágil"
+    },
+    {
+      "id": 4,
+      "categoria": 1,
+      "nombre": "User Research & HCD"
+    },
+    {
+      "id": 5,
+      "categoria": 1,
+      "nombre": "Customer Journey Mapping"
+    },
+    {
+      "id": 6,
+      "categoria": 1,
+      "nombre": "Stage-Gate Methodology"
+    },
+    {
+      "id": 7,
+      "categoria": 2,
+      "nombre": "Cloud Infrastructure & DevOps (AWS/Azure)"
+    },
+    {
+      "id": 8,
+      "categoria": 2,
+      "nombre": "Arquitectura de Sistemas y Software"
+    },
+    {
+      "id": 9,
+      "categoria": 2,
+      "nombre": "Desarrollo Backend (Django, APIs REST)"
+    },
+    {
+      "id": 10,
+      "categoria": 2,
+      "nombre": "Desarrollo Frontend (HTMX, JS, frameworks)"
+    },
+    {
+      "id": 11,
+      "categoria": 2,
+      "nombre": "Integración de Sistemas y APIs"
+    },
+    {
+      "id": 12,
+      "categoria": 2,
+      "nombre": "Low-code/No-code (Power Platform, n8n)"
+    },
+    {
+      "id": 13,
+      "categoria": 2,
+      "nombre": "Ciberseguridad & Secure Development"
+    },
+    {
+      "id": 14,
+      "categoria": 2,
+      "nombre": "Testing/QA & Validación de Usabilidad"
+    },
+    {
+      "id": 36,
+      "categoria": 2,
+      "nombre": "UX/UI Design & Prototyping"
+    },
+    {
+      "id": 37,
+      "categoria": 2,
+      "nombre": "Observabilidad & Confiabilidad (SRE-lite)"
+    },
+    {
+      "id": 15,
+      "categoria": 3,
+      "nombre": "Change Management organizacional"
+    },
+    {
+      "id": 16,
+      "categoria": 3,
+      "nombre": "Workshop Facilitation & Group Dynamics"
+    },
+    {
+      "id": 17,
+      "categoria": 3,
+      "nombre": "Training Design & Delivery"
+    },
+    {
+      "id": 18,
+      "categoria": 3,
+      "nombre": "Storytelling & Strategic Communication"
+    },
+    {
+      "id": 19,
+      "categoria": 4,
+      "nombre": "Business Case Development"
+    },
+    {
+      "id": 20,
+      "categoria": 4,
+      "nombre": "Financial Modeling, ROI & Innovation Metrics"
+    },
+    {
+      "id": 21,
+      "categoria": 4,
+      "nombre": "Data Analytics & Visualization"
+    },
+    {
+      "id": 22,
+      "categoria": 4,
+      "nombre": "Risk Assessment & Mitigation"
+    },
+    {
+      "id": 23,
+      "categoria": 4,
+      "nombre": "Market Research & Competitive Analysis"
+    },
+    {
+      "id": 24,
+      "categoria": 4,
+      "nombre": "Strategic Planning & Roadmapping"
+    },
+    {
+      "id": 25,
+      "categoria": 4,
+      "nombre": "Reportería & Executive Communication"
+    },
+    {
+      "id": 26,
+      "categoria": 4,
+      "nombre": "Documentación de Procesos y Sistemas"
+    },
+    {
+      "id": 27,
+      "categoria": 4,
+      "nombre": "Propiedad Intelectual & Gestión de Patentes"
+    },
+    {
+      "id": 28,
+      "categoria": 4,
+      "nombre": "Gestión Financiera & Presupuestos (P&L)"
+    },
+    {
+      "id": 29,
+      "categoria": 5,
+      "nombre": "Agile/Scrum & Iterative Development"
+    },
+    {
+      "id": 30,
+      "categoria": 5,
+      "nombre": "Portfolio Management & Prioritization"
+    },
+    {
+      "id": 31,
+      "categoria": 5,
+      "nombre": "Stakeholder Management & Alignment"
+    },
+    {
+      "id": 32,
+      "categoria": 5,
+      "nombre": "Process Automation & Optimization"
+    },
+    {
+      "id": 33,
+      "categoria": 5,
+      "nombre": "Project Management (PMI/Híbrido)"
+    },
+    {
+      "id": 34,
+      "categoria": 5,
+      "nombre": "Product Management & Lifecycle"
+    },
+    {
+      "id": 35,
+      "categoria": 6,
+      "nombre": "AI Fundamentals & Prompt Engineering"
+    },
+    {
+      "id": 38,
+      "categoria": 6,
+      "nombre": "AI Agents & Autonomous Workflows"
+    },
+    {
+      "id": 39,
+      "categoria": 6,
+      "nombre": "IoT & Edge Computing"
+    }
+  ],
+  "collaborators": [
+    {
+      "id": 1,
+      "nombre": "Laura Méndez",
+      "rol": "Product Manager",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 0.7,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.9,
+        "cat6": 1.9
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 0.7,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "8": {
+          "nivel": 0.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "9": {
+          "nivel": 0.7,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "10": {
+          "nivel": 0.7,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "11": {
+          "nivel": 0.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "12": {
+          "nivel": 0.7,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "13": {
+          "nivel": 0.7,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "14": {
+          "nivel": 0.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "29": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "30": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "31": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "32": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "33": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "34": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "35": {
+          "nivel": 1.9,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "36": {
+          "nivel": 0.7,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "37": {
+          "nivel": 0.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "38": {
+          "nivel": 1.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "39": {
+          "nivel": 1.9,
+          "frecuencia": "T",
+          "criticidad": "D"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Diego Fuentes",
+      "rol": "Arquitecto Cloud",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 1.4,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.6,
+        "cat6": 1.6
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "T",
+          "criticidad": "D"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "T",
+          "criticidad": "D"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "8": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "9": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "10": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "11": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "12": {
+          "nivel": 1.4,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "13": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "14": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "T",
+          "criticidad": "D"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "N"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "T",
+          "criticidad": "D"
+        },
+        "29": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "I"
+        },
+        "30": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "31": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "32": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "33": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "34": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "35": {
+          "nivel": 1.6,
+          "frecuencia": "D",
+          "criticidad": "I"
+        },
+        "36": {
+          "nivel": 1.4,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "37": {
+          "nivel": 1.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "38": {
+          "nivel": 1.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "39": {
+          "nivel": 1.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Sofía Martínez",
+      "rol": "Consultora de Innovación",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 1.8,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.8,
+        "cat6": 1.7
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 1.8,
+          "frecuencia": "N",
+          "criticidad": "N"
+        },
+        "8": {
+          "nivel": 1.8,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "9": {
+          "nivel": 1.8,
+          "frecuencia": "N",
+          "criticidad": "N"
+        },
+        "10": {
+          "nivel": 1.8,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "11": {
+          "nivel": 1.8,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "12": {
+          "nivel": 1.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "13": {
+          "nivel": 1.8,
+          "frecuencia": "N",
+          "criticidad": "N"
+        },
+        "14": {
+          "nivel": 1.8,
+          "frecuencia": "N",
+          "criticidad": "N"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "T",
+          "criticidad": "C"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "29": {
+          "nivel": 2.8,
+          "frecuencia": "D",
+          "criticidad": "I"
+        },
+        "30": {
+          "nivel": 2.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "31": {
+          "nivel": 2.8,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "32": {
+          "nivel": 2.8,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "33": {
+          "nivel": 2.8,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "34": {
+          "nivel": 2.8,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "35": {
+          "nivel": 1.7,
+          "frecuencia": "T",
+          "criticidad": "D"
+        },
+        "36": {
+          "nivel": 1.8,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "37": {
+          "nivel": 1.8,
+          "frecuencia": "T",
+          "criticidad": "D"
+        },
+        "38": {
+          "nivel": 1.7,
+          "frecuencia": "T",
+          "criticidad": "D"
+        },
+        "39": {
+          "nivel": 1.7,
+          "frecuencia": "N",
+          "criticidad": "N"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Gabriel Torres",
+      "rol": "Líder de Plataforma",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 2.8,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.5,
+        "cat6": 1.5
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 2.8,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "8": {
+          "nivel": 2.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "9": {
+          "nivel": 2.8,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "10": {
+          "nivel": 2.8,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "11": {
+          "nivel": 2.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "12": {
+          "nivel": 2.8,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "13": {
+          "nivel": 2.8,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "14": {
+          "nivel": 2.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "29": {
+          "nivel": 2.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "30": {
+          "nivel": 2.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "31": {
+          "nivel": 2.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "32": {
+          "nivel": 2.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "33": {
+          "nivel": 2.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "34": {
+          "nivel": 2.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "35": {
+          "nivel": 1.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "36": {
+          "nivel": 2.8,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "37": {
+          "nivel": 2.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "38": {
+          "nivel": 1.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "39": {
+          "nivel": 1.5,
+          "frecuencia": "T",
+          "criticidad": "I"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 5,
+      "nombre": "Patricia Rivas",
+      "rol": "Gerente de Portafolio",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 2.9,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.7,
+        "cat6": 1.8
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 2.9,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "8": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "9": {
+          "nivel": 2.9,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "10": {
+          "nivel": 2.9,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "11": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "12": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "13": {
+          "nivel": 2.9,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "14": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "29": {
+          "nivel": 2.7,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "30": {
+          "nivel": 2.7,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "31": {
+          "nivel": 2.7,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "32": {
+          "nivel": 2.7,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "33": {
+          "nivel": 2.7,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "34": {
+          "nivel": 2.7,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "35": {
+          "nivel": 1.8,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "36": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "37": {
+          "nivel": 2.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "38": {
+          "nivel": 1.8,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "39": {
+          "nivel": 1.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 6,
+      "nombre": "Javier Castillo",
+      "rol": "Especialista DevOps",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 3.8,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.4,
+        "cat6": 1.4
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 3.8,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "8": {
+          "nivel": 3.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "9": {
+          "nivel": 3.8,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "10": {
+          "nivel": 3.8,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "11": {
+          "nivel": 3.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "12": {
+          "nivel": 3.8,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "13": {
+          "nivel": 3.8,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "14": {
+          "nivel": 3.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "29": {
+          "nivel": 2.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "30": {
+          "nivel": 2.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "31": {
+          "nivel": 2.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "32": {
+          "nivel": 2.4,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "33": {
+          "nivel": 2.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "34": {
+          "nivel": 2.4,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "35": {
+          "nivel": 1.4,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "36": {
+          "nivel": 3.8,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "37": {
+          "nivel": 3.8,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "38": {
+          "nivel": 1.4,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "39": {
+          "nivel": 1.4,
+          "frecuencia": "T",
+          "criticidad": "D"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 7,
+      "nombre": "Valeria Gómez",
+      "rol": "Analista de Estrategia",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 2.7,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.9,
+        "cat6": 1.9
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 2.7,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "8": {
+          "nivel": 2.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "9": {
+          "nivel": 2.7,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "10": {
+          "nivel": 2.7,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "11": {
+          "nivel": 2.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "12": {
+          "nivel": 2.7,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "13": {
+          "nivel": 2.7,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "14": {
+          "nivel": 2.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "29": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "30": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "31": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "32": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "33": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "34": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "35": {
+          "nivel": 1.9,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "36": {
+          "nivel": 2.7,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "37": {
+          "nivel": 2.7,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "38": {
+          "nivel": 1.9,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "39": {
+          "nivel": 1.9,
+          "frecuencia": "S",
+          "criticidad": "I"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 8,
+      "nombre": "Sebastián Cruz",
+      "rol": "Agile Coach",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 1.9,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.6,
+        "cat6": 1.6
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "2": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "3": {
+          "nivel": 3.5,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "4": {
+          "nivel": 3.5,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "5": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "6": {
+          "nivel": 3.5,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "7": {
+          "nivel": 1.9,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "8": {
+          "nivel": 1.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "9": {
+          "nivel": 1.9,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "10": {
+          "nivel": 1.9,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "11": {
+          "nivel": 1.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "12": {
+          "nivel": 1.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "13": {
+          "nivel": 1.9,
+          "frecuencia": "N",
+          "criticidad": "I"
+        },
+        "14": {
+          "nivel": 1.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "15": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "16": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "17": {
+          "nivel": 2.9,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "18": {
+          "nivel": 2.9,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "19": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "20": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "21": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "22": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "23": {
+          "nivel": 2.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "24": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "25": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "26": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "27": {
+          "nivel": 2.6,
+          "frecuencia": "N",
+          "criticidad": "D"
+        },
+        "28": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "C"
+        },
+        "29": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "30": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "31": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "32": {
+          "nivel": 2.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "33": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "34": {
+          "nivel": 2.6,
+          "frecuencia": "D",
+          "criticidad": "C"
+        },
+        "35": {
+          "nivel": 1.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "36": {
+          "nivel": 1.9,
+          "frecuencia": "M",
+          "criticidad": "D"
+        },
+        "37": {
+          "nivel": 1.9,
+          "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "38": {
+          "nivel": 1.6,
+          "frecuencia": "S",
+          "criticidad": "I"
+        },
+        "39": {
+          "nivel": 1.6,
+          "frecuencia": "M",
+          "criticidad": "I"
+        }
+      },
+      "esDemo": true
+    },
+    {
+      "id": 9,
+      "nombre": "Ana Juárez",
+      "rol": "Diseñadora de Servicios",
+      "categorias": {
+        "cat1": 3.5,
+        "cat2": 4.0,
+        "cat3": 2.9,
+        "cat4": 2.6,
+        "cat5": 2.9,
+        "cat6": 1.9
+      },
+      "skills": {
+        "1": {
+          "nivel": 3.5,
+          "criticidad": "I",
+          "frecuencia": "M"
+        },
+        "2": {
+          "nivel": 3.5,
+          "criticidad": "D",
+          "frecuencia": "D"
+        },
+        "3": {
+          "nivel": 3.5,
+          "criticidad": "D",
+          "frecuencia": "S"
+        },
+        "4": {
+          "nivel": 3.5,
+          "criticidad": "D",
+          "frecuencia": "D"
+        },
+        "5": {
+          "nivel": 3.5,
+          "criticidad": "C",
+          "frecuencia": "S"
+        },
+        "6": {
+          "nivel": 3.5,
+          "criticidad": "D",
+          "frecuencia": "D"
+        },
+        "7": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "8": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "9": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "10": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "11": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "12": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "13": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "14": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "15": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "16": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "17": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "18": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "19": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "20": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "21": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "22": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "23": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "24": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "25": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "26": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "27": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "28": {
+          "nivel": 2.6,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "29": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "30": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "31": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "32": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "33": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "34": {
+          "nivel": 2.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "35": {
+          "nivel": 1.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "36": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "37": {
+          "nivel": 4.0,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "38": {
+          "nivel": 1.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        },
+        "39": {
+          "nivel": 1.9,
+          "criticidad": "N",
+          "frecuencia": "N"
+        }
+      },
+      "esDemo": true
+    }
+  ],
+  "allowResetFromDemo": true
+}
