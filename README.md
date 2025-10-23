@@ -14,6 +14,18 @@ Visualizador interactivo del marco de competencias del equipo de I+D+i y Transfo
 
 ---
 
+## Estructura de archivos de datos
+
+El proyecto utiliza dos archivos para gestionar los datos:
+
+- **`data/database.template.json`** (trackeado en Git)
+  Contiene los datos demo iniciales con 9 colaboradores de ejemplo, 6 categorías y 39 skills. Este archivo se incluye en el repositorio y sirve como plantilla.
+
+- **`data/database.json`** (NO trackeado en Git, en `.gitignore`)
+  Archivo de trabajo local que contiene tus datos personalizados. Al iniciar la aplicación por primera vez, se crea automáticamente copiando el contenido del template. Todas las modificaciones (agregar colaboradores, resetear demo) se aplican a este archivo.
+
+---
+
 ## Modelo de datos (`data/database.json`)
 
 ```json
@@ -94,9 +106,31 @@ Detén el servidor con `Ctrl + C`.
 3. **Editar información existente**  
    - Modifica directamente el JSON (respetando el formato) y reinicia `npm run dev`, o implementa la edición en la UI reutilizando los endpoints.
 
-4. **Revisión de datos**  
+4. **Revisión de datos**
    - Cada cálculo ignora las skills con criticidad `N`.
    - El objetivo por categoría se deriva automáticamente ponderando criticidad y frecuencia.
+
+---
+
+## Cómo restaurar datos demo
+
+Si deseas volver a los datos demo originales después de haber modificado o reseteado tu base de datos local:
+
+1. **Detén el servidor de desarrollo** (si está corriendo)
+2. **Elimina el archivo local:**
+   ```bash
+   rm data/database.json
+   ```
+   (En Windows: `del data\database.json`)
+
+3. **Reinicia el servidor:**
+   ```bash
+   npm run dev
+   ```
+
+Al iniciar, el sistema detectará que no existe `database.json` y lo recreará automáticamente copiando el contenido de `database.template.json`, restaurando los 9 colaboradores demo y el flag `allowResetFromDemo: true`.
+
+> **Nota:** Si modificaste el template por error, puedes recuperarlo desde Git con `git checkout data/database.template.json`
 
 ---
 
@@ -116,7 +150,8 @@ npm run lint     # Ejecutar ESLint
 ```
 skills-dashboard/
 |-- data/
-|   `-- database.json          # Fuente de verdad de categorías, skills y colaboradores
+|   |-- database.template.json # Plantilla con datos demo (trackeado en Git)
+|   `-- database.json          # Datos locales del usuario (NO trackeado, generado automáticamente)
 |-- scripts/
 |   `-- exportData.mjs         # Utilidad para regenerar el JSON desde el JSX (opcional)
 |-- src/
@@ -128,6 +163,41 @@ skills-dashboard/
 |-- package.json
 `-- README.md
 ```
+
+---
+
+## Roadmap
+
+Funcionalidades planificadas para futuras versiones:
+
+### Gestión de categorías
+- **Crear categorías** desde la UI
+- **Editar categorías** existentes (nombre, abreviatura)
+- **Eliminar categorías** (con validación de skills asociados)
+- Reordenar categorías mediante drag & drop
+
+### Gestión de skills
+- **Crear skills** desde la UI
+- **Editar skills** existentes (nombre, categoría asociada)
+- **Eliminar skills** (con validación de evaluaciones existentes)
+- Reordenar skills dentro de cada categoría
+
+### Importación/exportación de datos
+- Exportar datos a CSV/Excel
+- Importar colaboradores desde CSV
+- Exportar reportes en PDF
+- Backup automático de datos
+
+### Mejoras de UI/UX
+- Editor inline de colaboradores (sin modal)
+- Filtros avanzados por categoría, rol, nivel
+- Modo oscuro
+- Vistas comparativas personalizables
+
+### Colaboración
+- Modo multiusuario con sincronización
+- Historial de cambios
+- Comentarios y notas por colaborador
 
 ---
 

@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const dataFilePath = path.resolve(__dirname, 'data', 'database.json')
+const templateFilePath = path.resolve(__dirname, 'data', 'database.template.json')
 
 const defaultData = {
   categories: [],
@@ -18,7 +19,17 @@ const defaultData = {
 const ensureDataFile = () => {
   if (!fs.existsSync(dataFilePath)) {
     fs.mkdirSync(path.dirname(dataFilePath), { recursive: true })
-    fs.writeFileSync(dataFilePath, JSON.stringify(defaultData, null, 2), 'utf8')
+
+    // Si existe el template, copiarlo al database.json (incluye datos demo)
+    if (fs.existsSync(templateFilePath)) {
+      const templateContent = fs.readFileSync(templateFilePath, 'utf8')
+      fs.writeFileSync(dataFilePath, templateContent, 'utf8')
+      console.log('[data-api] database.json creado desde database.template.json')
+    } else {
+      // Fallback: usar estructura vacía si no existe el template
+      fs.writeFileSync(dataFilePath, JSON.stringify(defaultData, null, 2), 'utf8')
+      console.log('[data-api] database.json creado con estructura vacía')
+    }
   }
 }
 
