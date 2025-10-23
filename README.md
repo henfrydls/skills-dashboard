@@ -171,19 +171,22 @@ skills-dashboard/
 ## Capturas de Pantalla
 
 ### Dashboard Principal
-<!-- Agregar imagen aquí -->
+<img width="1844" height="949" alt="image" src="https://github.com/user-attachments/assets/d1f1dd4e-ad8a-48b5-aa3d-890d3cacd373" />
 
 ### Vista Por Colaborador
-<!-- Agregar imagen aquí -->
+<img width="1843" height="940" alt="image" src="https://github.com/user-attachments/assets/866236c0-c023-42e2-baae-01ab093c1ffd" />
 
 ### Resumen de un Colaborador
-<!-- Agregar imagen aquí -->
+<img width="1843" height="942" alt="image" src="https://github.com/user-attachments/assets/a878b994-7fbe-45cb-bd49-a398d1ad22bc" />
 
 ### Vista Por Categoría
-<!-- Agregar imagen aquí -->
+<img width="1857" height="937" alt="image" src="https://github.com/user-attachments/assets/24876fe6-d930-498e-989f-9e48967e9c7e" />
 
 ### Resumen de Categoría
-<!-- Agregar imagen aquí -->
+<img width="1836" height="943" alt="image" src="https://github.com/user-attachments/assets/94526686-0fe4-427f-9efd-30a454fea29a" />
+
+### Resumen por Skill
+<img width="1844" height="940" alt="image" src="https://github.com/user-attachments/assets/72e0ce58-27e9-475a-8359-4d9ad63a96dd" />
 
 ---
 
