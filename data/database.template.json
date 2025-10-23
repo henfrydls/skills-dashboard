@@ -242,7 +242,7 @@
   "collaborators": [
     {
       "id": 1,
-      "nombre": "Laura Méndez",
+      "nombre": "John Doe 1",
       "rol": "Product Manager",
       "categorias": {
         "cat1": 3.5,
@@ -458,7 +458,7 @@
     },
     {
       "id": 2,
-      "nombre": "Diego Fuentes",
+      "nombre": "Jane Doe 1",
       "rol": "Arquitecto Cloud",
       "categorias": {
         "cat1": 3.5,
@@ -674,7 +674,7 @@
     },
     {
       "id": 3,
-      "nombre": "Sofía Martínez",
+      "nombre": "John Doe 2",
       "rol": "Consultora de Innovación",
       "categorias": {
         "cat1": 3.5,
@@ -890,7 +890,7 @@
     },
     {
       "id": 4,
-      "nombre": "Gabriel Torres",
+      "nombre": "Jane Doe 2",
       "rol": "Líder de Plataforma",
       "categorias": {
         "cat1": 3.5,
@@ -1106,7 +1106,7 @@
     },
     {
       "id": 5,
-      "nombre": "Patricia Rivas",
+      "nombre": "John Doe 3",
       "rol": "Gerente de Portafolio",
       "categorias": {
         "cat1": 3.5,
@@ -1322,7 +1322,7 @@
     },
     {
       "id": 6,
-      "nombre": "Javier Castillo",
+      "nombre": "Jane Doe 3",
       "rol": "Especialista DevOps",
       "categorias": {
         "cat1": 3.5,
@@ -1538,7 +1538,7 @@
     },
     {
       "id": 7,
-      "nombre": "Valeria Gómez",
+      "nombre": "John Doe 4",
       "rol": "Analista de Estrategia",
       "categorias": {
         "cat1": 3.5,
@@ -1754,7 +1754,7 @@
     },
     {
       "id": 8,
-      "nombre": "Sebastián Cruz",
+      "nombre": "Jane Doe 4",
       "rol": "Agile Coach",
       "categorias": {
         "cat1": 3.5,
@@ -1970,7 +1970,7 @@
     },
     {
       "id": 9,
-      "nombre": "Ana Juárez",
+      "nombre": "John Doe 5",
       "rol": "Diseñadora de Servicios",
       "categorias": {
         "cat1": 3.5,
