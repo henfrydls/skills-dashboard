@@ -1128,18 +1128,20 @@ const SkillsDashboard = () => {
                 Selecciona un colaborador para ver detalle
               </h2>
               <div className="flex flex-col sm:flex-row gap-3 md:justify-end">
-                <button
-                  type="button"
-                  onClick={handleResetDemo}
-                  disabled={disableResetDemo}
-                  className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
-                  style={{
-                    backgroundColor: disableResetDemo ? COLORS.secondary : COLORS.danger,
-                    color: COLORS.white
-                  }}
-                >
-                  {allowResetFromDemo ? (isResettingDemo ? 'Reiniciando...' : 'Iniciar desde cero') : 'Demo inicializada'}
-                </button>
+                {allowResetFromDemo && (
+                  <button
+                    type="button"
+                    onClick={handleResetDemo}
+                    disabled={disableResetDemo}
+                    className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
+                    style={{
+                      backgroundColor: disableResetDemo ? COLORS.secondary : COLORS.danger,
+                      color: COLORS.white
+                    }}
+                  >
+                    {isResettingDemo ? 'Reiniciando...' : 'Iniciar desde cero'}
+                  </button>
+                )}
                 <button
                   type="button"
                   onClick={handleAbrirFormularioNuevoColaborador}

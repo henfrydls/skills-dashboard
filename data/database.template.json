@@ -10,7 +10,7 @@
       "id": 2,
       "nombre": "Desarrollo & Plataforma Técnica",
       "abrev": "Desarrollo",
-      "skillCount": 10
+      "skillCount": 11
     },
     {
       "id": 3,
@@ -117,6 +117,11 @@
       "id": 37,
       "categoria": 2,
       "nombre": "Observabilidad & Confiabilidad (SRE-lite)"
+    },
+    {
+      "id": 40,
+      "categoria": 2,
+      "nombre": "Control de versiones (Git, Github)"
     },
     {
       "id": 15,
@@ -442,6 +447,11 @@
           "nivel": 1.9,
           "frecuencia": "T",
           "criticidad": "D"
+        },
+        "40": {
+          "nivel": 2.5,
+          "frecuencia": "S",
+          "criticidad": "I"
         }
       },
       "esDemo": true
@@ -653,6 +663,11 @@
           "nivel": 1.6,
           "frecuencia": "M",
           "criticidad": "I"
+        },
+        "40": {
+          "nivel": 4.0,
+          "frecuencia": "D",
+          "criticidad": "C"
         }
       },
       "esDemo": true
@@ -864,6 +879,11 @@
           "nivel": 1.7,
           "frecuencia": "N",
           "criticidad": "N"
+        },
+        "40": {
+          "nivel": 1.5,
+          "frecuencia": "M",
+          "criticidad": "D"
         }
       },
       "esDemo": true
@@ -1075,6 +1095,11 @@
           "nivel": 1.5,
           "frecuencia": "T",
           "criticidad": "I"
+        },
+        "40": {
+          "nivel": 4.0,
+          "frecuencia": "D",
+          "criticidad": "C"
         }
       },
       "esDemo": true
@@ -1286,6 +1311,11 @@
           "nivel": 1.8,
           "frecuencia": "M",
           "criticidad": "I"
+        },
+        "40": {
+          "nivel": 2.0,
+          "frecuencia": "M",
+          "criticidad": "D"
         }
       },
       "esDemo": true
@@ -1497,6 +1527,11 @@
           "nivel": 1.4,
           "frecuencia": "T",
           "criticidad": "D"
+        },
+        "40": {
+          "nivel": 4.5,
+          "frecuencia": "D",
+          "criticidad": "C"
         }
       },
       "esDemo": true
@@ -1708,6 +1743,11 @@
           "nivel": 1.9,
           "frecuencia": "S",
           "criticidad": "I"
+        },
+        "40": {
+          "nivel": 1.0,
+          "frecuencia": "T",
+          "criticidad": "D"
         }
       },
       "esDemo": true
@@ -1918,6 +1958,11 @@
         "39": {
           "nivel": 1.6,
           "frecuencia": "M",
+          "criticidad": "I"
+        },
+        "40": {
+          "nivel": 2.5,
+          "frecuencia": "S",
           "criticidad": "I"
         }
       },
@@ -2130,6 +2175,11 @@
           "nivel": 1.9,
           "criticidad": "N",
           "frecuencia": "N"
+        },
+        "40": {
+          "nivel": 2.0,
+          "criticidad": "I",
+          "frecuencia": "M"
         }
       },
       "esDemo": true
