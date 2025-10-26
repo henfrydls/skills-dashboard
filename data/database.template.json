@@ -41,7 +41,7 @@
     {
       "id": 1,
       "categoria": 1,
-      "nombre": "Design Thinking avanzado"
+      "nombre": "Design Thinking"
     },
     {
       "id": 2,
@@ -56,7 +56,7 @@
     {
       "id": 4,
       "categoria": 1,
-      "nombre": "User Research & HCD"
+      "nombre": "User Research & Human-Centered Design"
     },
     {
       "id": 5,
